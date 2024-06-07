@@ -13,6 +13,8 @@
 		41BAF8BE2C124CF1001C30D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BAF8BC2C124CF1001C30D4 /* Main.storyboard */; };
 		41BAF8C02C124CF2001C30D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BAF8BF2C124CF2001C30D4 /* Assets.xcassets */; };
 		41BAF8C32C124CF2001C30D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BAF8C12C124CF2001C30D4 /* LaunchScreen.storyboard */; };
+		41BAF8CB2C12DAA1001C30D4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BAF8CA2C12DAA1001C30D4 /* Book.swift */; };
+		41BAF8CD2C12DB4E001C30D4 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BAF8CC2C12DB4E001C30D4 /* BookManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		41BAF8BF2C124CF2001C30D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BAF8C22C124CF2001C30D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BAF8C42C124CF2001C30D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BAF8CA2C12DAA1001C30D4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		41BAF8CC2C12DB4E001C30D4 /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				41BAF8BF2C124CF2001C30D4 /* Assets.xcassets */,
 				41BAF8C12C124CF2001C30D4 /* LaunchScreen.storyboard */,
 				41BAF8C42C124CF2001C30D4 /* Info.plist */,
+				41BAF8CA2C12DAA1001C30D4 /* Book.swift */,
+				41BAF8CC2C12DB4E001C30D4 /* BookManager.swift */,
 			);
 			path = BookManage;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BAF8CB2C12DAA1001C30D4 /* Book.swift in Sources */,
 				41BAF8BB2C124CF1001C30D4 /* ViewController.swift in Sources */,
 				41BAF8B72C124CF1001C30D4 /* AppDelegate.swift in Sources */,
+				41BAF8CD2C12DB4E001C30D4 /* BookManager.swift in Sources */,
 				41BAF8B92C124CF1001C30D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
